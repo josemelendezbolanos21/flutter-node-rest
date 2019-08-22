@@ -1,0 +1,30 @@
+{
+  "name": "flutter-node-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemelendezbolanos21/flutter-node-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josemelendezbolanos21/flutter-node-rest/issues"
+  },
+  "homepage": "https://github.com/josemelendezbolanos21/flutter-node-rest#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.6.10",
+    "morgan": "^1.9.1"
+  }
+}
