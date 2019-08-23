@@ -49,14 +49,19 @@ class _HomePageState extends State<HomePage> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.all(12.0),
-                    child: Text("$index", style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w500 ),),
+                    child: Text("${index+1}", style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w500 ),),
                   ),
                   CircleAvatar(
                     backgroundImage: NetworkImage(usersData[index]['avatar']),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: Text("${usersData[index]["firstName"]} ${usersData[index]["lastName"]}"),
+                    child: Text(
+                      "${usersData[index]["firstName"]} ${usersData[index]["lastName"]}",
+                      style: TextStyle(
+                        fontSize: 18.0
+                      ),
+                    ),
                   ),
                 ],
               ),
